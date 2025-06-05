@@ -1,0 +1,17 @@
+name: SimpleTime
+author: corevibess
+description: A simple day/night plugin
+
+version: v0.1
+api: 5.28.2
+
+website: https://github.com/corevibes
+main: SimpleTime\SimpleTime
+
+permissions:
+  simpletime.day:
+    description: Allowed to use /day or /dia
+    default: op
+  simpletime.night:
+    description: Allowed to use /night or /noche
+    default: op
